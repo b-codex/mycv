@@ -1,0 +1,33 @@
+body{
+    /* font-size: 14px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    background-image: linear-gradient(red, yellow, green);
+    /* filter: blur(8px); */
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    width: inherit;
+    background-color: rgba(75, 154, 224, 0.089);
+    padding: 15px;
+    border-bottom: 1.5px solid black;
+}
+
+div{
+    float: left;
+    /* width: 100%; */
+}
+
+img{
+    width: 30%;
+    margin: 1.667px;
+
+    border-radius: 10px;
+}
+
+#clear{
+    filter: none;
+}
