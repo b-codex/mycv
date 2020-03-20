@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+    background-color: rgba(243, 237, 237, 0.959);
+    /* border: 2px solid blue; */
+}
+
+.col{
+    width: 50px;
+    height: 50px;
+}
+
+.table tr td:first-child{
+    border-right: 2px solid blue;
+}
+
+.table tr td:nth-child(2){
+    border-right: 2px solid blue;    
+}
+
+.table tr:nth-child(1) td{
+    border-bottom: 2px solid blue;
+}
+
+.table tr:nth-child(2) td{
+    border-bottom: 2px solid blue;
+}

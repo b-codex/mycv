@@ -3,147 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="icon" type="image/png" href="assets/icons/b.ico" sizes="32x32">
+    <title>Contact | Bisrat Fekede</title>
+    <link rel="icon" type="image/png" href="https://www.bluntfabrications.com/wp-content/uploads/2019/05/bf_icon_light.png" sizes="32x32">
+
+    <link rel="stylesheet" href="assets/css/contact.css">
 
 </head>
 <body>
-    <hr>
-    <a href="index.html">Home</a> &nbsp; |
-    <a href="contact.html">Contact</a> &nbsp; |
-    <a href="gallery.html">Gallery</a> 
-    <hr>
-
-
-    
-    
-        <hr>
-        <img src="assets/image/1.jpg" alt="Biarat Fekede Profile" id="img">
-        <h1>Bisrat Fekede</h1>
-        <h3>Student, Addis Ababa institute of Technology</h3>
-        <p>
-            My name is Bisrat Fekede. I am a web developer. 
-            I am a second year student at Addis Ababa institute of Technology.
-        </p>
+    <header>
+        <a href="index.html">Home</a> &nbsp; |
+        <a href="contact.html">Contact</a> &nbsp; |
+        <a href="gallery.html">Gallery</a> &nbsp; |
+        <a href="blog.html">Blog</a> &nbsp; |
+        <a href="myworks.html">My Works</a>
         
-    <hr color="black">
+    </header> <br> <br>
 
-    <br><br><br>
+
+    <div class="info">
+        <div>
+            <img src="assets/image/1.jpg" alt="Biarat Fekede Profile" id="img">
+        </div>
+        <div id="info2">
+            <h1>Bisrat Fekede</h1><br>
+            <h3>Student, Addis Ababa institute of Technology</h3><br>
+            <p>
+                My name is Bisrat Fekede. I am a web developer. 
+                I am a second year student at Addis Ababa institute of Technology.
+            </p>
+        </div>
+    </div>
+
+
+
 
 
     
-    <br><br>
-    <hr width="20%" color="black">
-    <h3 align='center'>Contact Me</h3>
-    <hr width="20%" color="black">
+    <h3 id="contact">Contact Me</h3>
+    <div class="main">
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+        
+    
+        <div class="form">
+            <form action="" enctype="UTF-8">
+                <div>
+                    <input type="text" id="fname" pattern="[A-Za-z]{4,10}" placeholder="First Name" required>
+                </div>
+    
+                <div>
+                    <input type="text" id="lname" pattern="[A-Za-z]{4,10}" placeholder="Last Name" required>
+                </div>
+    
+                <div>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+    
+                <div>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
+    
+                <div>
+                    <input type="password" id="password" pattern=".{8,16}" placeholder="Password" required>
+                </div>
+    
+                <div>
+                    <textarea id="comment" cols="30" rows="10" placeholder="Leave Your Comment Here..." required></textarea>
+                </div>
+    
+                <div>
+                    <input type="submit" value="Submit">
+                </div>   
+    
+    
+            </form>
+        </div>
+    </div>
+    
+    
 
 
-    <table cellspacing='15' align="center">
-        <tr>
-            <td>
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-            </td>
-            <td>
-                <table cellspacing='15'>
+               
 
-                    <form action="" enctype="UTF-8">
-            
-                        <tr>
-                            <td>
-                                <label for="fname">First Name:</label>
-                            </td>
-                            <td>
-                                <input type="text" id="fname" pattern="[A-Za-z]{4,10}" required>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>
-                                <label for="lname">Last Name:</label>
-                            </td>
-                            <td>
-                                <input type="text" id="lname" pattern="[A-Za-z]{4,10}" required>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>
-                                <label for="email">Email:</label>
-                            </td>
-                            <td>
-                                <input type="email" id="email" required>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>
-                                <label for="phone">Phone Number:</label>
-                            </td>
-                            <td>
-                                <input type="tel" id="phone" required>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>
-                                <label for="password">Password:</label>
-                            </td>
-                            <td>
-                                <input type="password" id="password" pattern=".{8,16}" required>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>
-                                <label for="country">Country</label>
-                            </td>
-                            <td>
-                                <select id="country">
-                                    <option value="af">Africa</option>
-                                    <option value="am">America</option>
-                                    <option value="eu">Europe</option>
-                                </select>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>
-                                <label for="comment">Leave Your Comment Here:</label>
-                            </td>
-                            <td>
-                                <textarea id="comment" cols="30" rows="10" required></textarea>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <input type="submit" value="Submit">
-                            </td>
-                        </tr>
-            
-                    </form>
-            
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
 
 
 </body>
 <footer>
 
-    <hr>
-        <a href="" target="_blank">Facebook</a> &nbsp; |
-        <a href="" target="_blank">Twitter</a> &nbsp; |
-        <a href="https:/t.me/PsychoDud">Telegram</a> &nbsp; 
-    <hr>
+    <a href="mailto:it.bisrat.fekede@gmail.com" target="_blank">Gmail</a> &nbsp; |
+    <a href="https:/t.me/PsychoDud" target="_blank">Telegram</a> &nbsp; 
 
-    <p align='center'>Developed By Bisrat F. &copy; 2020</p>
-    <hr>
+    <p>Developed By Bisrat F. &copy; 2020</p>
+
 </footer>
 </html>

@@ -9,18 +9,6 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-div.main > h1{
-    text-align: center;
-    text-transform: uppercase;
-    padding: 20px;
-}
-
-figcaption{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
 header{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -32,34 +20,21 @@ header{
     position: fixed;
 }
 
-div.info > div{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.info{
-    border-bottom: 1px solid black;
-    margin: 10px;
-    padding: 15px;
+.links{
+    position: absolute;
+    top: 50%;
+    left: 45%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-flow: column wrap;
+   
 }
 
-#info2{
-    margin-left: 50px;
-}
-
-.images{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-div.main > div.images > figure > img{
-    width: 80%;
+div.links > a{
+    padding: 10px;
+    background-color: #07afa9ce;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 a{
@@ -73,8 +48,10 @@ a{
 }
 
 a:hover{
-    color: aquamarine;
+    color: rgb(206, 56, 19);
 }
+
+
 
 footer{
     border-top: 1px solid black;
@@ -93,52 +70,22 @@ footer > p{
 }
 
 @media screen and (max-width: 700px){
-    h1{
-        font-size: 17px;
-        text-align: center;
+    body{
+        overflow: hidden;
     }
-
-    h3{
-        text-align: center;
-        font-size: smaller;
-    }
-
-    p{
-        text-align: center;
-        font-size: 13px;
-    }
-
-    #imgContainer{
-        width: 500px;
-    }
-
-    #img{
-        width: 100%;
-    }
-
     header{
         padding: 5px;
         text-align: center;
         font-size: small;
     }
 
-    #hobbies > li{
-        font-size: smaller;
+    .links{
+        top: 45%;
+        left: 12%;
     }
 
-    #hobbies > div > p{
-        font-size: x-small;
-    }
-
-    div.main > h1{
-        font-size: 17px;
-    }
-
-    figure{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
+    div.links > a{
+        width: 300px;
     }
 
     footer{

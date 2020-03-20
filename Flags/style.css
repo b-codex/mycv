@@ -1,0 +1,151 @@
+.flags{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+div.flags > div{
+    width: fit-content;
+    padding: 10px;
+}
+
+.yemen{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, red 33%, white 33%, white 66%,  black 33%);
+    border: 1px solid black;
+}
+
+.russia{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, white 33%, blue 33%, blue 66%,  red 33%);
+    border: 1px solid black;
+}
+
+.romania{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to right, #002B7F 33%, #FCD116 33%, #FCD116 66%, #CE1126 33%);
+    border: 1px solid black;
+}
+
+.poland{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, white 50%, red 50%);
+    border: 1px solid black;
+}
+
+.peru{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to right, red 33%, white 33%, white 66%, red 33%);
+    border: 1px solid black;
+}
+
+.nigeria{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to right, green 33%, white 33%, white 66%, green 33%);
+    border: 1px solid black;
+}
+
+.netherlands{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, red 33%, white 33%, white 66%, blue 33%);
+    border: 1px solid black;
+}
+
+.monaco{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, red 50%, white 50%);
+    border: 1px solid black;
+}
+
+.martinique{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to right, blue 33%, white 33%, white 66%, red 33%);
+    border: 1px solid black;
+}
+
+.mali{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to right, green 33%, yellow 33%, yellow 66%, red 33%);
+    border: 1px solid black;
+}
+
+.luxembourg{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, red 33%, white 33%, white 66%, blue 33%);
+    border: 1px solid black;
+}
+
+.lithuania{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, yellow 33%, green 33%, green 66%, red 33%);
+    border: 1px solid black;
+}
+
+.latvia{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, #9E3039 40%, white 40%, white 60%, #9E3039 60%);
+    border: 1px solid black;
+}
+
+.japan{
+    width: 270px;
+    height: 200px;
+    background: radial-gradient(200px at 50% 50%, #BC002D 0, #BC002D 35%, transparent 35%, transparent 100%), white;
+    border: 1px solid black;
+}
+
+.italy{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to right, #009246 33%, white 33%, white 66%, #CE2B37 33%);
+    border: 1px solid black;
+}
+
+.hungary{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, #CD2A3E 33%, white 33%, white 66%, #436F4D 33%);
+    border: 1px solid black;
+}
+
+.germany{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, black 33%, #DD0000 33%, #DD0000 66%, #FFCE00 33%);
+    border: 1px solid black;
+}
+
+.france{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to right, #002395 33%, white 33%, white 66%, #ED2939 33%);
+    border: 1px solid black;
+}
+
+.ethiopia{
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(to bottom, green 33%, yellow 33%, yellow 66%, red 33%);
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 700px){
+    .flags{
+        flex-direction: column;
+    }
+}
